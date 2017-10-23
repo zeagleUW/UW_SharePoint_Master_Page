@@ -1,0 +1,130 @@
+/*Header color and size*/
+header	{
+	width:100%;
+	background-color:#39275b ;
+	position:relative;
+	height:101px;
+	}
+/*Header container style*/
+#headercontainer {
+	max-width:1100px;
+	height:90px;
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*Department Logo Positioning*/
+#departmentlogo {
+	max-width:137px;
+	height:61px;
+	margin:22px 22px 0px 22px;
+	float:left;
+}
+/*Site Logo Positioning*/
+#sitelogo {
+	max-width:164px;
+	height:47px;
+	margin: 27px 22px 22px 108px;
+	float:left;
+}
+/*Search Box Positioning*/
+#searcharea{
+	flex-grow:1;
+}
+/*Search box positioning*/
+.ms-srch-sb{
+	background: white;
+    float: right;
+    transform:translateY(40px);
+}
+
+/*Global Navigation, top black bar, positioning*/
+#DeltaTopNavigation{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	max-width:1150px;
+}
+/*Global navigation area style*/
+#top_nav{
+	background: #000000;
+	-webkit-box-shadow: 0 1px 3px rgba(34,25,25,.4);
+	box-shadow: 0 1px 3px rgba(34,25,25,.4);
+	height:42px;
+}
+/*Global navigation link color*/
+#DeltaTopNavigation .ms-core-listMenu-item, #DeltaTopNavigation .ms-core-listMenu-item:link{
+	color:#d3d3d3!important;
+}
+/*Global navigation link color*/
+.ms-core-listMenu-horizontalBox .ms-core-listMenu-selected:link, .ms-core-listMenu-horizontalBox .ms-core-listMenu-selected{
+	color:#FFFFFF!important;
+}
+
+/*Menu link style*/
+.ms-core-listMenu-item, .ms-core-listMenu-item:link, .ms-core-listMenu-item:visited, .ms-tv-item:link, .ms-tv-item:visited, .ms-tv-header:link, .ms-tv-header:visited{
+	color: #663399;
+    font-family: "Encode Sans Compressed",sans-serif;
+    font-weight: 800;
+    transform: translateY(10px);
+    font-size: 13px;
+    text-decoration: none;
+}
+/*Removes unnecessary margin around body*/
+body	{
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/*Content area positioning*/
+#pagebody {
+	max-width:1066px;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:300px;	
+}
+/*Page wrapper positioning*/
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto;
+}
+/*Footer positioning*/
+.footer, .push {
+  height: 60px;
+  clear: both;
+}
+/*Footer color*/
+.footer{
+	background-color:#39275b;
+}
+/*Hide file paths in search results*/
+.ms-srch-item-preview-path, .ms-srch-item-path{
+	display:none;
+}
+/*Show full file name in search webparts*/
+.ms-srch-ellipsis, .ms-srch-item-body{
+	overflow:visible;
+}
+
+/*Hide Path on Search Results*/
+.ms-srch-item-path{
+	display:none;
+}
+/*Hide Newsfeeds link in Suite Bar*/
+a[id$="_ShellNewsfeed"]{
+	display:none;	
+}
+/*fix extra space on first load of portal pages near title*/
+.welcome-image{
+	display:none;
+}
+/*Current navigation (left nav) positioning*/
+.left-bar
+{
+float:left;
+width:24.9%;
+}
